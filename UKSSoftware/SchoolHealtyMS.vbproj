@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E0FD09D-A7E5-4CB7-BB43-081D36BD2732}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SchoolHealtyMS.My.MyApplication</StartupObject>
+    <RootNamespace>SchoolHealtyMS</RootNamespace>
+    <AssemblyName>SchoolHealtyMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SchoolHealtyMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SchoolHealtyMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>SchoolHealtyMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>SchoolHealtyMS.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\DevExpress.BonusSkins.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.Utils.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.Xpo.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraBars.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraBars.v7.2.Design, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v7.2.Design, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraGrid.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraNavBar.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraScheduler.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraScheduler.v7.2.Core, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraTreeList.v7.2, Version=7.2.2.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="gLabel, Version=1.0.4323.33073, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BitsResto\BitsResto\BitsResto\bin\x86\Debug\gLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="MBGlassButton, Version=1.0.4393.17902, Culture=neutral, PublicKeyToken=c734814c4b88a51b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BitsResto\BitsResto\BitsResto\bin\x86\Debug\MBGlassButton.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.3.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="NetToolMysql_v12, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DATAKU\dotnetku\classlibrary\NetToolMysql_v12\NetToolMysql_v12\bin\Debug\NetToolMysql_v12.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseMain.Designer.vb">
+      <DependentUpon>BaseMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaseMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataKesehatan.Designer.vb">
+      <DependentUpon>FormDataKesehatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataKesehatan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormDataPribadi.Designer.vb">
+      <DependentUpon>FormDataPribadi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataPribadi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEditDataSiswa.Designer.vb">
+      <DependentUpon>FormEditDataSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditDataSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditSiswa.Designer.vb">
+      <DependentUpon>FormEditSiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditSiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIdentitas1.Designer.vb">
+      <DependentUpon>FormIdentitas1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormIdentitas1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormKegiatan.Designer.vb">
+      <DependentUpon>FormKegiatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormKegiatan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormPengurus.Designer.vb">
+      <DependentUpon>FormPengurus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPengurus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormPeralatan.Designer.vb">
+      <DependentUpon>FormPeralatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPeralatan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormPersediaanObat.Designer.vb">
+      <DependentUpon>FormPersediaanObat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPersediaanObat.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormTesKesehatan.Designer.vb">
+      <DependentUpon>FormTesKesehatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTesKesehatan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormRiwayatKesehatan.Designer.vb">
+      <DependentUpon>FormRiwayatKesehatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRiwayatKesehatan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PageTemplate.Designer.vb">
+      <DependentUpon>PageTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PageTemplate.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sekolah\UserControl1.Designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sekolah\UserControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="templateFormDialog.Designer.vb">
+      <DependentUpon>templateFormDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="templateFormDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TesForm.Designer.vb">
+      <DependentUpon>TesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\Config.vb" />
+    <Compile Include="Utility\LocalSession.vb" />
+    <Compile Include="Utility\Session.vb" />
+    <Compile Include="Utility\Utils.vb" />
+    <Compile Include="Utility\Validation.vb" />
+    <Compile Include="XtraForm1.Designer.vb">
+      <DependentUpon>XtraForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XtraForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseMain.resx">
+      <DependentUpon>BaseMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataKesehatan.resx">
+      <DependentUpon>FormDataKesehatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataPribadi.resx">
+      <DependentUpon>FormDataPribadi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditDataSiswa.resx">
+      <DependentUpon>FormEditDataSiswa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditSiswa.resx">
+      <DependentUpon>FormEditSiswa.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIdentitas1.resx">
+      <DependentUpon>FormIdentitas1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKegiatan.resx">
+      <DependentUpon>FormKegiatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPengurus.resx">
+      <DependentUpon>FormPengurus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPeralatan.resx">
+      <DependentUpon>FormPeralatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPersediaanObat.resx">
+      <DependentUpon>FormPersediaanObat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTesKesehatan.resx">
+      <DependentUpon>FormTesKesehatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRiwayatKesehatan.resx">
+      <DependentUpon>FormRiwayatKesehatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageTemplate.resx">
+      <DependentUpon>PageTemplate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="templateFormDialog.resx">
+      <DependentUpon>templateFormDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TesForm.resx">
+      <DependentUpon>TesForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraForm1.resx">
+      <DependentUpon>XtraForm1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\process_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_can.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attach_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\delete_comment.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

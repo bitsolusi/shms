@@ -1,0 +1,261 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MBGlassButton
+</name>
+</assembly>
+<members>
+<member name="P:MBGlassStyleButton.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MBGlassStyleButton.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MBGlassStyleButton.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:MBGlassStyleButton.MBGlassButton.Components">
+	<summary>
+ Required by the Form Designer Variable
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.#ctor">
+	<summary>
+ Create New Object of MBGlassButton and Initialize it.
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.InitializeComponent">
+	<summary>
+ Initialize the MBGlassButton Components
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.Dispose(System.Boolean)">
+	<summary>
+ MBExplorer Overrides Dispose to CleanUp component list
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnCreateControl">
+	<summary>
+ Create Base for MBGlassButton
+ </summary>
+</member><member name="T:MBGlassStyleButton.MBGlassButton.MB_SplitLocation">
+	<summary>
+ Enum to Set Split Location for MBGlasButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.SplitLocation">
+	<summary>
+ Get or Set the Location to Split Button into Two Parts
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.ImageSize">
+	<summary>
+ Get or Set the Image Size for MBGlassButton
+ </summary>
+</member><member name="T:MBGlassStyleButton.MBGlassButton.MB_ShowBase">
+	<summary>
+ Enum for Base Visibility
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.ShowBase">
+	<summary>
+ Get or Set Base Visibility for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.Radius">
+	<summary>
+ Get or Set Corner Radius for MBGlassButton
+ </summary>
+</member><member name="T:MBGlassStyleButton.MBGlassButton.MB_GroupPos">
+	<summary>
+ Enum for Group Position of MBGlassButton
+ </summary>
+</member><member name="F:MBGlassStyleButton.MBGlassButton._grouppos">
+	<summary>
+ Get or Set Group Position for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.Arrow">
+	<summary>
+ Get or Set Arrow visibility of MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.SplitButton">
+	<summary>
+ Get or Set Split Option for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.SplitDistance">
+	<summary>
+ Get or Set Split Distance for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.KeepPressed">
+	<summary>
+ Get or Set Button State of MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.IsPressed">
+	<summary>
+ Get or Set State of MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.MenuListPosition">
+	<summary>
+ Get ot Set DropDown Menu Position of MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.BaseColor">
+	<summary>
+ Get or Set Base Color for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.OnColor">
+	<summary>
+ Get ot Set OnColor of MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.PressColor">
+	<summary>
+ Get or Set Color when MBGlassButton is Pressed.
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.BaseStrokeColor">
+	<summary>
+ Get or Set Base Stroke for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.OnStrokeColor">
+	<summary>
+ Get or Set OnStroke Color for MBGlassButton
+ </summary>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.PressStrokeColor">
+	<summary>
+ Get or Set PressStroke Color of MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.GetColorIncreased(System.Drawing.Color,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Return Color with Increase Value
+ </summary>
+	<param name="color">The Value As System.Drawing.Color</param>
+	<param name="h">Hue Value As Integer</param>
+	<param name="s">Saturation Value As Integer</param>
+	<param name="b">Brightness Value As Integer</param>
+	<returns>Returns New Color</returns>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.GetColor(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns New Color From ARGB Values
+ </summary>
+	<param name="A">Alpha value as Integer</param>
+	<param name="R">Red value as integer</param>
+	<param name="G">Green value as Integer</param>
+	<param name="B">Blue value as Integer</param>
+	<returns>New Color</returns>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Handles MBGlassButton Paint
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnResize(System.EventArgs)">
+	<summary>
+ Handles MBGlassButton Resize
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.MBGlassButton_ContextMenuStripChanged(System.Object,System.EventArgs)">
+	<summary>
+ Hnadles ContaxtMenuStrip Rendering
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.FillGradients(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Handles Glowing of MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.DrawText(System.Drawing.Graphics)">
+	<summary>
+ Draw Text on MBGlassButton
+ </summary>
+	<param name="g">G as Graphics</param>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.TextAlignment(System.Drawing.ContentAlignment)">
+	<summary>
+ Text Alignment of MBGlassButton
+ </summary>
+	<param name="textalign">TextAlignment Value</param>
+	<returns>String Format</returns>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.DrawArc(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw arc for MBGlassButton
+ </summary>
+	<param name="re">R As Rectangle</param>
+	<param name="pa">Path As Graphics Path</param>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.DrawShadow(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw Shadow for MBGlassButton
+ </summary>
+	<param name="re">R As Rectangle</param>
+	<param name="pa">Path As Graphics Path</param>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.DrawArrow(System.Drawing.Graphics)">
+	<summary>
+ Draw Arrow on MBGlassButton
+ </summary>
+	<param name="gr">graphics As Graphics</param>
+	<remarks></remarks>
+</member><member name="P:MBGlassStyleButton.MBGlassButton.GlowingingSpeed">
+	<summary>
+ Get or Set Fading Speeed of MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnMouseEnter(System.EventArgs)">
+	<summary>
+ Handles Mouse Enter for MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnMouseLeave(System.EventArgs)">
+	<summary>
+ Handles Mouse Leave for MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.UpdateMouseLeave">
+	<summary>
+ Handles Mouse Leave for MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Down for MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Up for MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBGlassButton.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Move for MBGlassButton
+ </summary>
+</member><member name="T:MBGlassStyleButton.MBGlassButton">
+	<summary>
+ MBGlassButton Class © 2011 By Manoj Kishor Bhoir
+ </summary>
+	<remarks>Version 1.0.1096.2286</remarks>
+</member><member name="M:MBGlassStyleButton.MBColor.#ctor(System.Drawing.Color)">
+	<summary>
+ Constructor for MBColor
+ </summary>
+	<param name="color">Color Value</param>
+</member><member name="M:MBGlassStyleButton.MBColor.#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Constructor for MBColor
+ </summary>
+	<param name="a">Aplph value</param>
+	<param name="r">Red value</param>
+	<param name="g">Green value</param>
+	<param name="b">Blue value</param>
+</member><member name="T:MBGlassStyleButton.MBColor">
+	<summary>
+ MBColor Class for MBGlassButton
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBMenuRendere.OnRenderMenuItemBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Handles MenuItemBackground for MBGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBMenuRendere.OnRenderItemImage(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+	<summary>
+ Handles RenderItemImage for MBGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBMenuRendere.DrawArc(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw Arc for ContaxtMenuStripRenderer
+ </summary>
+</member><member name="M:MBGlassStyleButton.MBMenuRendere.GetRendererColor(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns New Color for MBGlassButton ContextMenuStrip Renderer
+ </summary>
+	<param name="R">Red value as Integer</param>
+	<param name="G">Green value as Integer</param>
+	<param name="B">Blue value as Integer</param>
+	<returns>New Color</returns>
+</member><member name="T:MBGlassStyleButton.MBMenuRendere">
+	<summary>
+ MBMenuRenderer for MBGlassButton ContaxtMenuStrip
+ </summary>
+</member>
+</members>
+</doc>
